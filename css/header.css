@@ -1,0 +1,53 @@
+#header{
+
+    margin: 0;
+    padding: 0;
+
+    width: 97.2vw;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 1%;
+
+
+    background-image: url(./../imgs/background\ body.jpeg);
+    
+}
+
+#logo{
+    width: 300px;
+}
+
+#logo_container{
+    width: 32vw;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+
+    /* background-color: brown; */
+}
+
+#header i{
+
+    font-size: 100px;
+    color: black;
+}
+
+#header i:hover{
+    transform: scale(1.1); /* Aumenta o ícone em 30% quando o mouse passa por cima */
+    color: rgb(24, 24, 24);
+}
+
+#titulo{
+    font-family: "Big Shoulders Stencil";
+    font-size: 40px;
+}

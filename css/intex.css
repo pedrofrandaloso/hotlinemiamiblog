@@ -1,0 +1,11 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(main.css);
+
+body {
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* (Opcional) Remove o padding padrão */
+
+    background-image: url(./../imgs/background\ body.jpeg);
+    background-size: cover;
+}
