@@ -1,0 +1,98 @@
+#main{
+
+    width: 50.2vw;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column; /* Muda a direção para coluna */
+    justify-content: center;
+    align-items: center; /* Centraliza horizontalmente */
+
+    
+
+    /* background-color: chartreuse; */
+
+}
+
+.subtitulo {
+    text-align: center; /* Centraliza o texto dentro da div */
+    color: white;
+    font-family: "Chakra Petch";
+}
+
+p{
+
+    font-size: 30px;
+
+    /* color: blue; */
+}
+
+#main img{
+    width: 45vw;
+    display: block; /* Evita que a imagem tenha comportamento inline */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+#hm1, #hm2, #hm3{
+    width: 100%; /* Para ocupar toda a largura do main */
+    text-align: center;
+}
+
+#hm1 p{
+    color: aqua;
+    font-family: "Tektur";
+}
+
+#hm2 p{
+    color: yellow;
+    font-family: "Prompt";
+}
+
+#hm3 p{
+    color: blue;
+    font-family: "Teko";
+    font-size: 40px;
+}
+
+#aside {
+    width: 15vw;
+    height: 25vh;
+    background-color: rgba(199, 169, 169, 0.205);
+    color: rgb(196, 0, 0);
+    position: fixed;
+    top: 30vh; /* Distância do topo da tela */
+    right: 1vw; /* Fixado no canto direito */
+    padding: 5px;
+    border-radius: 15px; /* Arredonda as bordas */
+    transition: transform 0.3s ease-in-out; /* Suaviza a animação */
+}
+
+
+.aside-item {
+    display: flex;
+    justify-content: space-between; /* Espaço entre o texto e o ícone */
+    align-items: center; /* Alinha verticalmente */
+    padding: 5px 0;
+}
+
+.aside-item h2 {
+    font-size: 20px; /* Ajusta o tamanho do texto */
+    margin: 0; /* Remove margem para evitar desalinhamento */
+}
+
+.aside-item i {
+    font-size: 20px; /* Ajusta o tamanho dos ícones */
+    color: rgb(255, 255, 255);
+}
+
+#aside i:hover {
+    transform: scale(1.3); /* Aumenta o ícone em 30% quando o mouse passa por cima */
+}
+
+#aside:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do aside */
+}
+#sessao_titulo{
+    font-family: "Rock Salt";
+    font-size: 25px;
+}
